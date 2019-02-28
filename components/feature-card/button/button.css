@@ -1,0 +1,17 @@
+.button__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 3rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.1rem;
+  border-radius: 0.1rem;
+  background-color: #288EBC;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #237a9f;
+}

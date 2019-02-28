@@ -1,0 +1,40 @@
+@import url("./../components/feature-card/header/header.css");
+@import url("./../components/feature-card/slider/fotorama.css");
+@import url("./../components/feature-card/slider/style.css");
+@import url("./../components/feature-card/menu/menu.css");
+@import url("./../components/feature-card/social-networks/social-networks.css");
+@import url("./../components/feature-card/contacts/contacts.css");
+@import url("./../components/feature-card/footer/footer.css");
+
+* {
+  background-color: #000000;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-menu {
+  width: 100%;
+  display: flex;
+  padding: 2rem 0;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.social-networks {
+  margin: 2rem 0;
+}
+
+footer {
+  border-top: 2px solid gray;
+}

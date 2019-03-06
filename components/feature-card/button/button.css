@@ -2,16 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 9rem;
-  height: 3rem;
+  width: 7em;
+  height: 2em;
   text-decoration: none;
   color: white;
-  letter-spacing: 0.1rem;
-  border-radius: 0.1rem;
+  letter-spacing: 0.1em;
+  border-radius: 0.1em;
   background-color: #288EBC;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.button:hover {
+.button__link:hover {
   background-color: #237a9f;
 }

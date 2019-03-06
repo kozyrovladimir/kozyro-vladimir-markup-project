@@ -1,37 +1,51 @@
+@import "./../button/button.css";
 .car-card {
+  width: 16em;
+  height: 18em;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 30rem;
-  height: 10rem;
-  background-color: #ffffff;
-}
-
-.car-card__image {
-  width: 11.25em;
-  height: 7.2em;
-}
-
-.car-card__content {
-  display: flex;
+  overflow: hidden;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  transition: 600ms;
 }
 
-.car-card__name {
-  position: relative;
-  top: -1em;
+.car-card__title, .car-card__type, .car-card__price {
+  margin: 0.2em;
 }
 
-.car-card__link-description {
-  text-decoration: none;
-  color: #123dff;
+.car-card__title {
+  font-size: 1.2rem;
 }
 
-.car-card__link-description:after {
-  content: "\2192";
+.car-card__type {
+  color: rgba(0, 0, 0, 0.62);
 }
 
-.car-card__link-description:hover{
-  color: #9eafff;
+.car-card__price {
+  font-weight: bold;
+  color: #288EBC;
 }
+
+.car-card__position {
+  margin: 0 1em;
+}
+
+.car-card:hover {
+  animation-name: car-card-animate;
+  border-radius: 0.4em;
+  box-shadow: 0 0 1em 0 rgba(0,0,0,0.75);
+  transform: scale(1.1) translateY(-2em);
+}
+
+.car-card:hover .button-position {
+  margin-left: 1em;
+  transition: 800ms;
+}
+
+
+.button-position {
+  margin-top: 1em;
+  margin-left: -8em;
+}
+
+

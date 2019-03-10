@@ -1,0 +1,39 @@
+.car-characteristics {
+  display: block;
+  border-top: 2px solid #8b8b8b;
+  border-bottom: 2px solid #8b8b8b;
+  max-height: 3.125em;
+  overflow: hidden;
+  transition: 1s;
+  width: 80%;
+}
+
+.car-characteristics:hover {
+  max-height: 60em;
+}
+
+.car-characteristics__arrow {
+  transition: 400ms;
+  color: #288EBC;
+}
+
+.car-characteristics:hover .car-characteristics__arrow {
+  transform: rotate(180deg);
+}
+
+.car-characteristics__information {
+  height: 3.125em;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.car-characteristics__arrow {
+  margin: 1em;
+}
+
+.car-characteristics__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

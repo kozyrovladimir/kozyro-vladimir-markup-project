@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="test-drive-form.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="logo">
+        <a href="#"><img src="../../../img/header/logo.png" alt="Logo" class="logo__image"></a>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li class="navigation__list-item"><a href="#" class="navigation__link">Автомобили</a></li>
+          <li class="navigation__list-item"><a href="#" class="navigation__link">Сервис</a></li>
+          <li class="navigation__list-item"><a href="#" class="navigation__link">Спецпредложения</a></li>
+          <li class="navigation__list-item"><a href="#" class="navigation__link">О компании</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="form-test-drive">
+
+      <form action="#" id="test-drive" method="get">
+        <fieldset form="test-drive">
+          <legend>Выбор модели</legend>
+          <select name="car-models" id="car-models">
+            <option value="c-class">C-Class</option>
+            <option value="e-class">E-Class</option>
+            <option value="s-class">S-Class</option>
+            <option value="cla">CLA</option>
+            <option value="cls">CLS</option>
+            <option value="glc">GLC</option>
+            <option value="gle">GLE</option>
+            <option value="gls">GLS</option>
+            <option value="v-class">V-Class</option>
+          </select>
+        </fieldset>
+
+        <fieldset form="test-drive">
+          <legend>Контактная информация</legend>
+          <label for="your-name">ФИО: <input type="text" name="your-name" id="your-name"></label>
+          <label for="email">Ваш e-mail: <input type="email" id="email"></label>
+          <label for="phone-number">Ваш номер телефона: <input type="text" id="phone-number"></label>
+        </fieldset>
+
+        <fieldset form="test-drive">
+          <legend>Желаемая дата тест-драйва</legend>
+          <input type="date">
+        </fieldset>
+
+        <fieldset form="test-drive">
+          <legend>Дополнительная информация</legend>
+          <label for="additional-information"></label>
+          <textarea name="additional-information" id="additional-information" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <input class="form-test-drive__button" type="submit" value="Отправить">
+        <input class="form-test-drive__button" type="reset" value="Очистить форму">
+
+      </form>
+
+    </div>
+
+    <div class="bottom-line"></div>
+
+    <section class="contacts">
+      <div class="contacts__phone-numbers">
+        <h3>Mercedes-Benz</h3>
+        <ul>
+          <li>Автомобили:<a href="tel:+375173099999"> +375-17-30-99-999</a></li>
+          <li>Сервис:<a href="tel:+375173099999"> +375-17-30-99-999</a></li>
+          <li>Запчасти:<a href="tel:+375-17-30-99-999"> +375-17-30-99-999</a></li>
+        </ul>
+      </div>
+      <div class="contacts__opening-hours">
+        <h3>Часы работы</h3>
+        <ul>
+          <li>Понедельник:08:00 - 20:00</li>
+          <li>Вторник:08:00 - 20:00</li>
+          <li>Среда:08:00 - 20:00</li>
+          <li>Четверг:08:00 - 20:00</li>
+          <li>Пятница:08:00 - 20:00</li>
+          <li>Суббота:08:00 - 20:00</li>
+          <li>Воскресенье:08:00 - 17:00</li>
+        </ul>
+      </div>
+      <div class="contacts__map">
+        <h3>Мы находимся</h3>
+        <p>Здесь будет карта</p>
+        <div class="contacts__map-yandex">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-footer">© Mercedes-Benz Беларусь, 2019</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

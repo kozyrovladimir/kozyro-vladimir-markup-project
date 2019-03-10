@@ -1,4 +1,4 @@
-.form-test-drive {
+.form-service {
   margin: 1.5em auto;
   box-sizing: border-box;
   font-size: 1rem;
@@ -33,7 +33,11 @@ select {
   height: 2em;
 }
 
-.form-test-drive__button {
+fieldset input {
+  margin: 1.5em auto;
+}
+
+.form-service__button {
   width: 30%;
   margin: 1.5em;
   color: white;

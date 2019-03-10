@@ -1,0 +1,20 @@
+@import "./../../feature-card/header/header.css";
+@import "./../../feature-card/contacts/contacts.css";
+@import "./../../feature-card/footer/footer.css";
+@import "./../../feature-card/service/service.css";
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.bottom-line {
+  border-bottom: 2px solid gray;
+  margin-top: 1.5em;
+}

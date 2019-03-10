@@ -1,0 +1,56 @@
+@import "./../../feature-card/header/header.css";
+@import "./../../feature-card/car-card/car-card.css";
+@import "./../../feature-card/contacts/contacts.css";
+@import "./../../feature-card/footer/footer.css";
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top-line {
+  border-bottom: 2px solid gray;
+}
+
+.bottom-line {
+  border-bottom: 2px solid gray;
+  margin-top: 1.5em;
+}
+
+.car-models__container {
+  margin-top: 1.5em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 5em;
+  border-top: 2px solid black;
+}
+
+.car-models__title {
+  text-align: center;
+  margin: 1.5em 0;
+  color: white;
+}
+
+.car-card {
+  margin-bottom: 2em;
+}
+
+.car-card__position {
+  margin: 0 1em;
+}
+
+.contacts {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}

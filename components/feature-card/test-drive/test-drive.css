@@ -40,4 +40,5 @@ select {
   border: none;
   background-color: #3551ff;
   border-radius: 0.125em;
+  cursor: pointer;
 }

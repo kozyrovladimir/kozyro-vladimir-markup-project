@@ -1,7 +1,7 @@
-
 .contacts {
+  font-size: 1rem;
  width: 100%;
- height: 20rem;
+ height: 20em;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
@@ -42,8 +42,8 @@
  color: #288EBC;
 }
 
-.contacts__map-yandex {
+.contacts__map-google {
   width: 100%;
-  height: 10rem;
+  height: 15em;
   background-color: #8b8b8b;
 }

@@ -5,7 +5,9 @@
   max-height: 3.125em;
   overflow: hidden;
   transition: 1s;
-  width: 80%;
+  width: 65%;
+  font-size: 1rem;
+  margin: 1em;
 }
 
 .car-characteristics:hover {
@@ -36,4 +38,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.car-characteristics__text {
+  font-size: 1em;
+  flex: 2;
+}
+
+.car-characteristics__image {
+  flex: 3;
+}
+
+.car-characteristics__image img {
+  width: 100%;
 }

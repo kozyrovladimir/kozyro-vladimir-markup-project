@@ -11,17 +11,20 @@
 }
 
 .contacts__phone-numbers {
-  width: 30%;
+  /*flex: 1;*/
+  /*width: 30%;*/
   height: 100%;
 }
 
 .contacts__opening-hours {
-  width: 30%;
+  /*flex: 1;*/
+  /*width: 30%;*/
   height: 100%;
 }
 
 .contacts__map {
-  width: 30%;
+  /*flex: 1;*/
+  /*width: 30%;*/
   height: 100%;
 }
 

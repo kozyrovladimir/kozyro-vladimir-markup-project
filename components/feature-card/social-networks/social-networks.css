@@ -31,3 +31,13 @@
 .social-networks__item:hover {
   fill: #288EBC;
 }
+
+@media screen and (max-width:960px) {
+  .social-networks {
+   justify-content: center;
+  }
+
+  .social-networks__text {
+    display: none;
+  }
+}

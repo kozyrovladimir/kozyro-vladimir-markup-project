@@ -37,8 +37,9 @@
 
 @media screen and (max-width:960px) {
   .card-menu {
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
   }
 
   .card-menu-item {

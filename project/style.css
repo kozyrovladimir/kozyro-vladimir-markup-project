@@ -6,7 +6,7 @@
 @import url("./../components/feature-card/contacts/contacts.css");
 @import url("./../components/feature-card/footer/footer.css");
 
-* {
+body {
   background-color: #000000;
 }
 

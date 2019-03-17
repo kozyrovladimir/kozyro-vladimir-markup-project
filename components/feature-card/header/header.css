@@ -45,7 +45,6 @@ header {
 
 .navigation__link:hover {
   color: #8c91ff;
-  border-bottom: 2px solid #3551ff;
 }
 
 @media screen and (max-width:960px) {
@@ -60,6 +59,7 @@ header {
 
   .navigation {
     position: relative;
+    z-index: 5;
     padding: 0;
   }
 
@@ -78,9 +78,13 @@ header {
     color: white;
     width: 100%;
   }
+  .navigation__link:hover {
+    border-bottom: 2px solid #79896D; ;
+  }
+
   .navigation__menu-item {
     display: block;
-    color: white;
+    fill: white;
     position: absolute;
     top: -3em;
     right: 1.5em;

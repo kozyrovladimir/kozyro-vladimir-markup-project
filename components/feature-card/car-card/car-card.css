@@ -31,7 +31,6 @@
 }
 
 .car-card:hover {
-  animation-name: car-card-animate;
   border-radius: 0.4em;
   box-shadow: 0 0 1em 0 rgba(0,0,0,0.75);
   transform: scale(1.1) translateY(-2em);
@@ -46,6 +45,16 @@
 .button-position {
   margin-top: 1em;
   margin-left: -8em;
+}
+
+@media screen and (max-width: 960px){
+  .button-position {
+    margin-left: 1em;
+  }
+  .car-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }
 
 

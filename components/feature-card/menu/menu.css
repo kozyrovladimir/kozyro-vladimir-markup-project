@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.card-menu__image {
+.card-menu__pop-up-menu {
   height: 12.5em;
   overflow: hidden;
 }
@@ -33,7 +33,7 @@
   text-align: center;
 }
 
-img {
+.card-menu__pop-up-menu img{
   position: relative;
   z-index: 1;
   width: 100%;

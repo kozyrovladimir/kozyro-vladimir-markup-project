@@ -1,17 +1,15 @@
 @import "./../../feature-card/header/header.css";
 @import "./../../feature-card/contacts/contacts.css";
 @import "./../../feature-card/footer/footer.css";
-@import "./../../feature-card/test-drive/test-drive.css";
 
 body {
   background-color: black;
 }
 
 .wrapper {
-  max-width: 1000px;
   width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
-  background-color: white;
   font-size: 1rem;
 }
 
@@ -19,19 +17,16 @@ body {
   border-bottom: 2px solid gray;
 }
 
-.bottom-line {
-  border-bottom: 2px solid gray;
-  margin-top: 1.5em;
-}
-
-.description-form {
+.about-us {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-color: white;
   width: 100%;
 }
 
-.description-form__title {
+.about-us__title {
   display: block;
   text-align: center;
   font-size: 1.5em;
@@ -42,18 +37,13 @@ body {
   padding: 1.5em 0;
 }
 
-.description-form__image {
+.about-us__head-image {
   width: 100%;
+  margin: 0 auto;
 }
 
-.description-form__text {
-  margin-top: 1em;
+.about-us__text {
+  font-size: 1em;
+  margin: 1em auto;
   width: 80%;
 }
-
-@media screen and (max-width:960px){
-  .description-form__text {
-    width: 90%;
-  }
-}
-

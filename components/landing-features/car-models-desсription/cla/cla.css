@@ -1,0 +1,77 @@
+@import "./../../../feature-card/header/header.css";
+@import "./../../../feature-card/contacts/contacts.css";
+@import "./../../../feature-card/footer/footer.css";
+@import "./../../../feature-card/car-characteristics/car-characteristics.css";
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.bottom-line {
+  border-bottom: 2px solid gray;
+  margin-top: 1.5em;
+}
+
+.cla-description img {
+  width: 100%;
+}
+
+.cla-description__title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.cla-description__information h3 {
+  text-align: center;
+}
+
+.cla-description__case {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em 1em;
+}
+
+.cla-description__text {
+  padding: 0.5em;
+  flex: 7;
+}
+
+.cla-description__image {
+  flex: 4;
+}
+
+.cla-description__image img {
+  width: 100%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.mix-color {
+  background-color: #f9f9f9;
+}
+
+.car-characteristics__title {
+  display: block;
+  margin-left: 2em;
+}
+
+@media screen and (max-width: 960px){
+  .cla-description__case {
+    flex-direction: column;
+  }
+}
+
+
+
+
+

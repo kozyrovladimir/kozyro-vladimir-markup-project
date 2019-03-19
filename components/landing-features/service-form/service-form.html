@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Сервисное обслуживание</title>
+  <link rel="stylesheet" href="service-form.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./../../feature-card/header/menu.js"></script>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="logo">
+        <a href="./../../../project/index.html"><img src="../../../img/header/logo.png" alt="Logo" class="logo__image"></a>
+      </div>
+      <nav class="navigation">
+        <a href="#" class="navigation__menu-item">
+          <svg height="2em" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="2em" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+        </a>
+        <ul>
+          <li class="navigation__list-item"><a href="./../car-models/car-models.html" class="navigation__link">Автомобили</a></li>
+          <li class="navigation__list-item"><a href="./service-form.html" class="navigation__link">Сервис</a></li>
+          <li class="navigation__list-item"><a href="./../test-drive-form/test-drive-form.html" class="navigation__link">Тест-драйв</a></li>
+          <li class="navigation__list-item"><a href="./../../landing-features/about-us/about-us.html" class="navigation__link">О компании</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="top-line"></div>
+    <section class="description-form">
+      <h3 class="description-form__title">Сервисное обслуживание и кузовной ремонт</h3>
+      <img src="./../../../img/service-form/description-form-image.jpg" alt="Сервисное обслуживание" class="description-form__image">
+      <div class="description-form__text">
+        <p>Поддерживать ваш Mercedes-Benz в первозданном состоянии – задача команды нашего сервисного центра. Вы можете обратиться к нам для решения любых вопросов, связанных с эксплуатацией Вашего автомобиля. В сервис центре Автомобильного дома «Энергия ГмбХ» к вашим услугам полный цикл обслуживания и ремонта легковых, малотоннажных и грузовых автомобилей Mercedes-Benz.</p>
+      </div>
+    </section>
+
+    <section class="form-service">
+
+      <form action="#" id="service" method="get">
+        <fieldset form="service">
+          <legend>Данные о автомобиле</legend>
+          <label for="model-name">Модель автомобиля: <input type="text" name="model-name" id="model-name"></label>
+          <label for="model-vin">VIN-номер: <input type="text" name="model-vin" id="model-vin"></label>
+        </fieldset>
+
+        <fieldset form="service">
+          <legend>Контактная информация</legend>
+          <label for="your-name">ФИО: <input type="text" name="your-name" id="your-name"></label>
+          <label for="email">Ваш e-mail: <input type="email" id="email"></label>
+          <label for="phone-number">Ваш номер телефона: <input type="text" id="phone-number"></label>
+        </fieldset>
+
+        <fieldset form="service">
+          <legend>Предварительная дата и времмя записи</legend>
+          <input type="date">
+          <input type="time">
+        </fieldset>
+
+        <fieldset form="service">
+          <legend>Описание проблемы (необходимых работ)</legend>
+          <label for="additional-information"></label>
+          <textarea name="additional-information" id="additional-information" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <input class="form-service__button" type="submit" value="Отправить">
+        <input class="form-service__button" type="reset" value="Очистить">
+
+      </form>
+
+    </section>
+
+    <div class="bottom-line"></div>
+
+    <section class="contacts">
+      <div class="contacts__phone-numbers">
+        <h3>Mercedes-Benz</h3>
+        <ul>
+          <li>Автомобили:<a href="tel:+375173099999"> +375-17-30-99-999</a></li>
+          <li>Сервис:<a href="tel:+375173099999"> +375-17-30-99-999</a></li>
+          <li>Запчасти:<a href="tel:+375-17-30-99-999"> +375-17-30-99-999</a></li>
+        </ul>
+      </div>
+      <div class="contacts__opening-hours">
+        <h3>Часы работы</h3>
+        <ul>
+          <li>Понедельник:08:00 - 20:00</li>
+          <li>Вторник:08:00 - 20:00</li>
+          <li>Среда:08:00 - 20:00</li>
+          <li>Четверг:08:00 - 20:00</li>
+          <li>Пятница:08:00 - 20:00</li>
+          <li>Суббота:08:00 - 20:00</li>
+          <li>Воскресенье:08:00 - 17:00</li>
+        </ul>
+      </div>
+      <div class="contacts__map">
+        <h3>Мы находимся</h3>
+        <div class="contacts__map-google">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.442502981291!2d27.510810315414094!3d53.923881980104106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc56ed3f08291%3A0x388320d0365bc54e!2z0JDQstGC0L7QvNC-0LHQuNC70YzQvdGL0Lkg0LTQvtC8INCt0L3QtdGA0LPQuNGPINCT0LzQsdCl!5e0!3m2!1sru!2sby!4v1552336889353" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="text-footer">© Mercedes-Benz Беларусь, 2019</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

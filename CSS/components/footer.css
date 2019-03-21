@@ -1,0 +1,11 @@
+footer {
+  border-top: 2px solid gray;
+  background-color: black;
+  font-family: Times New Roman, serif;
+}
+
+.text-footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+}

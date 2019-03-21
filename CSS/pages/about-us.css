@@ -1,0 +1,51 @@
+@import "./../components/header.css";
+@import "./../components/contacts.css";
+@import "./../components/footer.css";
+@import "./../components/preloader.css";
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.top-line {
+  border-bottom: 2px solid gray;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  font-family: Times New Roman, serif;
+}
+
+.about-us__title {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
+
+.about-us__head-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-us__text {
+  font-size: 1em;
+  margin: 1em auto;
+  width: 80%;
+}

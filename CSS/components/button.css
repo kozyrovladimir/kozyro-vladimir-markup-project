@@ -1,0 +1,25 @@
+.button__link
+{
+  font-size: 1rem;
+  font-family: Times New Roman, serif;
+
+  display: flex;
+
+  width: 7em;
+  height: 2em;
+
+  text-decoration: none;
+  letter-spacing: .1em;
+
+  color: white;
+  border-radius: .1em;
+  background-color: #288ebc;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.button__link:hover
+{
+  background-color: #2eb7e9;
+}

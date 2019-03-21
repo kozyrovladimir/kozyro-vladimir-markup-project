@@ -1,57 +1,75 @@
-.form-service {
-  margin: 1.5em auto;
-  box-sizing: border-box;
+.form-service
+{
   font-size: 1rem;
+
+  box-sizing: border-box;
   width: 90%;
-  background-color: white;
+  margin: 1.5em auto;
   padding: 2em;
+
+  background-color: white;
 }
 
-fieldset {
-  margin: 1.5em 0;
+fieldset
+{
   display: flex;
   flex-direction: column;
+
+  margin: 1.5em 0;
+
   border: none;
 }
 
-legend {
-  font-size: 1.5em;
+legend
+{
   font-family: Times New Roman, serif;
+  font-size: 1.5em;
 }
 
-label {
-  margin: 0.5em 0;
+label
+{
   font-family: Tahoma, sans-serif;
+
+  margin: .5em 0;
 }
 
-input {
+input
+{
   width: 100%;
   height: 2em;
 }
 
-select {
+select
+{
   width: 40%;
   height: 2em;
 }
 
-fieldset input {
+fieldset input
+{
   margin: 1.5em auto;
 }
 
-.form-service__button {
+.form-service__button
+{
+  font-family: Tahoma, sans-serif;
+
   width: 30%;
   height: 2.5em;
   margin: 1.5em;
+
+  cursor: pointer;
+
   color: white;
   border: none;
-  background-color: #3551ff;
-  border-radius: 0.125em;
-  cursor: pointer;
-  font-family: Tahoma, sans-serif;
+  border-radius: .125em;
+  background-color: #288ebc;
 }
 
-@media screen and (max-width: 960px) {
-  .form-service {
+@media screen and (max-width: 960px)
+{
+  .form-service
+  {
     width: 100%;
   }
 }

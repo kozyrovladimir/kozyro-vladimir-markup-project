@@ -1,71 +1,96 @@
-.car-characteristics {
+.car-characteristics
+{
+  font-family: Times New Roman, serif;
+  font-size: 1rem;
+
   display: block;
+  overflow: hidden;
+
+  width: 95%;
+  max-height: 3.125em;
+  margin: 1em;
+
+  transition: 1s;
+
   border-top: 2px solid #8b8b8b;
   border-bottom: 2px solid #8b8b8b;
-  max-height: 3.125em;
-  overflow: hidden;
-  transition: 1s;
-  width: 95%;
-  font-size: 1rem;
-  margin: 1em;
-  font-family: Times New Roman, serif;
 }
 
-.car-characteristics:hover {
+.car-characteristics:hover
+{
   max-height: 60em;
 }
 
-.car-characteristics__arrow {
+.car-characteristics__arrow
+{
   transition: 400ms;
-  color: #288EBC;
+
+  color: #288ebc;
 }
 
-.car-characteristics:hover .car-characteristics__arrow {
+.car-characteristics:hover .car-characteristics__arrow
+{
   transform: rotate(180deg);
 }
 
-.car-characteristics__information {
-  height: 3.125em;
+.car-characteristics__information
+{
   display: flex;
   flex-direction: row;
+
+  height: 3.125em;
+
   justify-content: left;
 }
 
-.car-characteristics__arrow {
+.car-characteristics__arrow
+{
   margin: 1em;
 }
 
-.car-characteristics__row {
+.car-characteristics__row
+{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   padding-bottom: 1em;
+
+  justify-content: space-between;
 }
 
-.car-characteristics__text {
+.car-characteristics__text
+{
   font-size: 1em;
+
   flex: 1;
 }
 
-.car-characteristics__image {
+.car-characteristics__image
+{
   flex: 1;
 }
 
-.car-characteristics__image img {
+.car-characteristics__image img
+{
   width: 100%;
 }
 
-@media screen and (max-width: 960px){
-  .car-characteristics {
+@media screen and (max-width: 960px)
+{
+  .car-characteristics
+  {
     width: 95%;
   }
-  .car-characteristics__image {
+  .car-characteristics__image
+  {
     flex: 1;
   }
 }
 
-@media screen and (max-width: 550px){
-  .car-characteristics__row {
+@media screen and (max-width: 550px)
+{
+  .car-characteristics__row
+  {
     flex-direction: column;
   }
 }

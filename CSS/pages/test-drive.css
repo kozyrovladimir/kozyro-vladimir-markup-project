@@ -1,60 +1,80 @@
-@import "./../components/header.css";
-@import "./../components/contacts.css";
-@import "./../components/footer.css";
-@import "./../components/test-drive.css";
-@import "./../components/preloader.css";
+@import './../components/header.css';
+@import './../components/contacts.css';
+@import './../components/footer.css';
+@import './../components/test-drive.css';
+@import './../components/preloader.css';
 
-body {
+body
+{
   background-color: black;
 }
 
-.wrapper {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: white;
+.wrapper
+{
   font-size: 1rem;
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  background-color: white;
 }
 
-.top-line {
+.top-line
+{
   border-bottom: 2px solid gray;
 }
 
-.bottom-line {
-  border-bottom: 2px solid gray;
+.bottom-line
+{
   margin-top: 1.5em;
+
+  border-bottom: 2px solid gray;
 }
 
-.description-form {
+.description-form
+{
+  font-family: Times New Roman, serif;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   width: 100%;
-  font-family: Times New Roman, serif;
+
+  align-items: center;
 }
 
-.description-form__title {
-  display: block;
-  text-align: center;
+.description-form__title
+{
   font-size: 1.5em;
-  color: white;
+
+  display: block;
+
   width: 100%;
-  background-color: black;
   margin: 0 auto;
   padding: 1.5em 0;
+
+  text-align: center;
+
+  color: white;
+  background-color: black;
 }
 
-.description-form__image {
+.description-form__image
+{
   width: 100%;
 }
 
-.description-form__text {
-  margin-top: 1em;
+.description-form__text
+{
   width: 80%;
+  margin-top: 1em;
 }
 
-@media screen and (max-width: 960px) {
-  .description-form__text {
+@media screen and (max-width: 960px)
+{
+  .description-form__text
+  {
     width: 90%;
   }
 }

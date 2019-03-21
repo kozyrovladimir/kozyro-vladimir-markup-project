@@ -1,59 +1,81 @@
-.card-menu-item {
+.card-menu-item
+{
+  position: relative;
+
   width: 18.75em;
   height: 15.6em;
-  position: relative;
 }
 
-.card-menu__pop-up-menu {
-  height: 12.5em;
+.card-menu__pop-up-menu
+{
   overflow: hidden;
+
+  height: 12.5em;
 }
 
-.card-menu__hover {
+.card-menu__hover
+{
+  font-size: .8em;
+
   position: relative;
   z-index: 2;
+
+  display: flex;
+
   width: 100%;
   height: 3em;
-  background-color: rgba(0, 0, 0, 0.6);
+
+  transition: 300ms;
+
   color: white;
-  display: flex;
+  background-color: rgba(0, 0, 0, .6);
+
   justify-content: center;
   align-items: center;
-  font-size: 0.8em;
-  transition: 300ms;
 }
 
-.card-menu__hover p {
-  background-color: rgba(0, 0, 0, 0);
+.card-menu__hover p
+{
   font-family: Tahoma, sans-serif;
+
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.card-menu__name {
-  color: white;
+.card-menu__name
+{
   text-align: center;
+
+  color: white;
 }
 
-.card-menu__pop-up-menu img{
+.card-menu__pop-up-menu img
+{
   position: relative;
   z-index: 1;
+
   width: 100%;
   height: 100%;
 }
 
-a {
+a
+{
   text-decoration: none;
 }
 
-.card-menu__link {
+.card-menu__link
+{
   display: block;
 }
 
-.card-menu-item .card-menu__link:hover .card-menu__hover {
-    transform: translateY(-3em);
+.card-menu-item .card-menu__link:hover .card-menu__hover
+{
+  transform: translateY(-3em);
 }
 
-@media screen and (max-width:960px) {
-  .card-menu__hover {
+@media screen and (max-width:960px)
+{
+  .card-menu__hover
+  {
     transform: translateY(-3em);
   }
 }

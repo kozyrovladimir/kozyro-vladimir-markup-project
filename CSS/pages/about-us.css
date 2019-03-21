@@ -1,51 +1,68 @@
-@import "./../components/header.css";
-@import "./../components/contacts.css";
-@import "./../components/footer.css";
-@import "./../components/preloader.css";
+@import './../components/header.css';
+@import './../components/contacts.css';
+@import './../components/footer.css';
+@import './../components/preloader.css';
 
-body {
+body
+{
   background-color: black;
 }
 
-.wrapper {
+.wrapper
+{
+  font-size: 1rem;
+
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  font-size: 1rem;
 }
 
-.top-line {
+.top-line
+{
   border-bottom: 2px solid gray;
 }
 
-.about-us {
+.about-us
+{
+  font-family: Times New Roman, serif;
+
   display: flex;
   flex-direction: column;
+
+  width: 100%;
+
+  background-color: white;
+
   justify-content: center;
   align-items: center;
-  background-color: white;
-  width: 100%;
-  font-family: Times New Roman, serif;
 }
 
-.about-us__title {
-  display: block;
-  text-align: center;
+.about-us__title
+{
   font-size: 1.5em;
-  color: white;
+
+  display: block;
+
   width: 100%;
-  background-color: black;
   margin: 0 auto;
   padding: 1.5em 0;
+
+  text-align: center;
+
+  color: white;
+  background-color: black;
 }
 
-.about-us__head-image {
+.about-us__head-image
+{
   width: 100%;
   margin: 0 auto;
 }
 
-.about-us__text {
+.about-us__text
+{
   font-size: 1em;
-  margin: 1em auto;
+
   width: 80%;
+  margin: 1em auto;
 }
